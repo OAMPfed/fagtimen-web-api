@@ -1,0 +1,25 @@
+.observable {
+    width: 150px;
+    height: 150px;
+    margin: 50px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    transition: background-color 0.2s, mix-blend-mode 0.2s;
+  }
+  
+  div.observable p {
+    transition: color 0.2s;
+  }
+  
+  div.observable.inverted {
+    background-color: black;
+  }
+  
+  div.observable.inverted p {
+    color: white;
+    mix-blend-mode: difference;
+  }

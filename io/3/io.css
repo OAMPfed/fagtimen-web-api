@@ -1,0 +1,19 @@
+.observable {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    margin: 2px;
+    display: inline-block;
+}
+
+#observable-container {
+    width: auto;
+    text-align: center;
+}
+
+.highlighter {
+    width: 50px;
+    height: 50px;
+    background-color: salmon;
+    position: absolute;
+}
